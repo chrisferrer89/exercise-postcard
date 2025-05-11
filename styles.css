@@ -1,0 +1,39 @@
+body {
+	background: black;
+}
+
+body {
+	font-family: Playfair Display, serif;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	font-size: 2.5rem;
+}
+
+.postcard-header h1 {
+	width: 100px;
+	margin: 0;
+}
+
+p {
+	color: blue;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
